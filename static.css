@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-color: black;
+  border-top: 7px solid gray;
+}
+
+.columnleft {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  top: 50;
+}
+
+.columnright {
+  width: 50px;
+  background: black;
+  height: 100vh;
+}
+
+.flex-container1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+}
+
+.flex-container2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-items: center;
+}
+.title {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  justify-items: center;
+}
+
+.watch {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.our-story-card-img {
+  border-left: 50%;
+  position: static;
+}
+
+.video {
+  display: inline;
+  position: relative;
+  z-index: 2;
+  display: ;
+}
+
+.title {
+  font-size: 50px;
+  color: #ecf0f1;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.flex-container {
+  position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  position: center;
+  width: 50%;
+}
+
+.faq-answer open {
+  position: relative;
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  overflow: auto;
+  width: 50%;
+  z-index: 1;
+}
+
+#answer {
+  position: relative;
+  color: white;
+  background-color: gray;
+  width: 59%;
+}
+
+.try {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: center;
+  text-align: left;
+  color: gray;
+  background-color: white;
+  width: 50%;
+}
+
+.free {
+  position: relative;
+  color: white;
+  background-color: red;
+}
+
+.callToAction {
+  position: relative;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 0.9rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
